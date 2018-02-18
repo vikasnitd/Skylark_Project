@@ -1,0 +1,9 @@
+Project Description: You are given a set of images taken by a Drone. You have to tell, at any instant of time, how many images are in 35m 	                  
+		     range of Drone and which images are?
+
+Problem  approach  : When I got this project, First thing that came in my mind is "How to extract all co-ordinate of image point from kml 			     file?". Then i used python libraries for extracting co-ordinate. After getting location of all point, Using SRT file I 
+		     have calculated distance of every images from the point at every instant and if distance is less than or equal to given 			     distance (here 35 mtrs) ,then I insert it in a set<for avoiding duplicate images for every second>.  
+
+
+
+		     
